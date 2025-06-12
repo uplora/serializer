@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/uplora/serializer/compare/v0.1.0...v0.1.1)
+
+### 🚀 Enhancements
+
+- Export FilterSerializerError for improved error handling in serialization ([3d2d68e](https://github.com/uplora/serializer/commit/3d2d68e))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.0
 
 
