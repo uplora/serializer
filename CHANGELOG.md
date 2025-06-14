@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/uplora/serializer/compare/v0.1.1...v0.1.2)
+
+### 🩹 Fixes
+
+- Improve filter serialization by handling empty resize values ([6678f2a](https://github.com/uplora/serializer/commit/6678f2a))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.1
 
 [compare changes](https://github.com/uplora/serializer/compare/v0.1.0...v0.1.1)
