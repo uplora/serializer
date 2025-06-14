@@ -8,9 +8,6 @@ const transformers: Record<keyof Filters, FilterTransformer<any>> = {
   resize,
 }
 
-/**
- * Сериализация фильтров в строку
- */
 export function serialize(filters: Filters): string {
   const stack = []
 
@@ -19,15 +16,21 @@ export function serialize(filters: Filters): string {
       continue
     }
 
+    if (key === 'resize') {
+      if (!value.width && !value.height) {
+        continue
+      }
+
+      stack.push(`${key}/${value.width || ''}x${value.height || ''}`)
+      continue
+    }
+
     stack.push(`${key}/${value}`)
   }
 
-  return `-/${stack.join('/-/')}`
+  return stack.length ? `-/${stack.join('/-/')}` : ''
 }
 
-/**
- * Десериализация строки в объект фильтров
- */
 export function unserialize(raw: string): Filters {
   const filters: Filters = {}
 
