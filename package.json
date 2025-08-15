@@ -42,7 +42,7 @@
     "lint-staged": "^16.1.5",
     "madge": "^8.0.0",
     "typescript": "^5.9.2",
-    "unbuild": "^3.6.0"
+    "unbuild": "^3.6.1"
   },
   "lint-staged": {
     "*.ts": "pnpm run lint"
