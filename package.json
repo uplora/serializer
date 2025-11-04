@@ -37,7 +37,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "changelogen": "^0.6.2",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.6",
     "madge": "^8.0.0",
