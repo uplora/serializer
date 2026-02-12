@@ -2,7 +2,7 @@
   "name": "@uplora/serializer",
   "type": "module",
   "version": "0.1.3",
-  "packageManager": "pnpm@10.29.1",
+  "packageManager": "pnpm@10.29.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uplora/serializer.git"
@@ -33,7 +33,7 @@
     "@uplora/formats": "^0.1.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.3.0",
+    "@antfu/eslint-config": "^7.4.3",
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
     "changelogen": "^0.6.2",
